@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/filipedeschamps/video-maker) 
+
 # video-maker
 Projeto open source para fazer vídeos automatizados
 
@@ -44,7 +46,7 @@ Você precisa criar também as credenciais do *Watson* no site da [IBM](https://
 
 ![IBM](https://i.imgsafe.org/ba/bab0fc4ecd.jpeg)
 
-clicando nele na nova página vai aparece um botão "criar" no final da página, uma vez que o serviço for criado, você será redirecionado para a página de gerenciamento do serviço que você acabou de criar, no menu lateral esquerdo procure por **Credenciais de Serviços** e depois clique em **Auto-generated service credentials** destacado abaixo, então copie as *Credenciais*:
+clicando nele na nova página vai aparecer um botão "criar" no final da página, uma vez que o serviço for criado, você será redirecionado para a página de gerenciamento do serviço que você acabou de criar, no menu lateral esquerdo procure por **Credenciais de Serviços** e depois clique em **Auto-generated service credentials** destacado abaixo, então copie as *Credenciais*:
 
 ![IBM](https://i.imgsafe.org/ba/bace46f16b.jpeg)
 
@@ -133,7 +135,7 @@ Voltando no arquivo **google-search.json** iremos criar uma nova propriedade e i
 
 ```
 {
-  "apiKey": "API_KEY_AQUI"
+  "apiKey": "API_KEY_AQUI",
   "searchEngineId": "ID_MECANISMO_DE_BUSCA"
 }
 ```
@@ -164,7 +166,7 @@ Após ser criada, irá aparecer uma janela com as credenciais, você pode dar ok
 
 ![image](https://user-images.githubusercontent.com/34013325/57036076-aa695700-6c29-11e9-8c4d-fc78fecdae46.png)
 
-renomeio o arquivo para **youtube.json** e salve dentro da pasta **video-maker/credentials** 😄
+renomeio o arquivo para **google-youtube.json** e salve dentro da pasta **video-maker/credentials** 😄
 
 ## 1.., 2..., 3... Testando! ##
 Agora dentro da pasta **video-maker** você pode abrir o **cmd** ou **powershell** e executar o comando:
